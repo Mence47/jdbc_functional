@@ -27,6 +27,9 @@
             <% session.invalidate(); %>
         <form action="index.html">
             <input type="submit" value="Return to main page" />
+        </form>
+        <form action="print_base.jsp">
+            <input type="submit" value="Print data base" />
         </form>    
     </body>
 </html>
